@@ -33,7 +33,7 @@ const getWeatherInfo = async () => {
 
   useEffect(() => {
         getWeatherInfo();
-  }, []);
+  }, []);// eslint-disable-line react-hooks/exhaustive-deps
 
 return (
     <>
